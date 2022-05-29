@@ -1,0 +1,25 @@
+.img-fluid {
+    position: relative;
+    border-radius: 50%;
+    margin-left: 350px;
+    bottom: 200px;
+    height: 280px;
+    width: 250px;
+}
+
+.acerca {
+    margin-top: 20px;
+}
+
+.nombre {
+    margin-top: 90px;
+}
+
+div p b {
+    font-size: 40px;
+}
+
+div{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
