@@ -1,25 +1,125 @@
-.img-fluid {
-    position: relative;
-    border-radius: 50%;
-    margin-left: 350px;
-    bottom: 200px;
-    height: 280px;
-    width: 250px;
+* {
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
 }
 
-.acerca {
-    margin-top: 20px;
+p{
+    padding: 20px;
+}
+
+span {
+    padding: 0px;
+}
+
+div {
+    text-align: center;
+}
+
+.acerca-de {
+    margin: 0px;
+}
+
+.row {
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(61, 61, 61);
+    margin-top: 50px;
+    color: rgb(182, 181, 181);
+}
+
+/** #banner {
+    max-width: 100%;
+    height: 500px;
+    width: 1500px;
+    box-shadow: 0px 0px 15px 10px rgb(82, 82, 82);
+}
+*/
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../assets/programacion-2-e1551291144973.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nombre, .acercademi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 .nombre {
-    margin-top: 90px;
+    font-size: 30px;
 }
 
-div p b {
-    font-size: 40px;
+.acercademi{
+    font-size: 15px;
 }
 
-div{
+.title {
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 35px rgb(143, 142, 142);
+    letter-spacing: 20px;
+    font-weight: bold;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+
+@media (min-width: 576px) {
+    .perfil {
+        margin: auto;
+    }
+
+    .fotoperfil {
+        position: relative;
+        border: 3px solid rgb(255, 255, 255);
+        height: 350px;
+        width: 340px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .img {
+        margin: 0px;
+    }
+
+    #banner {
+        height: 200px;
+        box-shadow: none;
+    }
+
+    .fotoperfil {
+        position: relative;
+        border-radius: none;
+        height: 250px;
+        width: 50%;
+    }
+
+    .row {
+        margin-top: 0px;
+    }
+
+    .nombre, .acercademi {
+        margin-top: 10px;
+    }
+
+    .acercademi {
+        padding: 10px;
+    }
+}
+
+
+
+

@@ -1,38 +1,40 @@
-img {
-    width: 7em;
+header {
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    justify-content: space-between;
+    min-height: 60px;
+    margin: 0;
+    align-items: center;
 }
 
-div {
-    background-color: #191a1d;
-    margin: 0px;
+nav {
+    margin-right: 10px;
 }
 
-#logoig {
-    width: 2em;
-    float: right;
+#logoarg {
+    display: flex;
+    margin-left: 10px;
+}
+
+.logo1 img {
+    height: 60px;
+}
+
+.logo {
+    height: 30px;
     margin: 10px;
-    padding-top: 8px;
 }
 
-#logofb {
-    width: 2em;
-    float: right;
-    margin: 10px;
-    padding-top: 8px;
-}
+@media (max-width: 700px){
+    header {
+        flex-direction: column;
+    }
 
-#logogit {
-    width: 2em;
-    float: right;
-    margin: 10px;
-    padding-top: 8px;
-}
+    nav {
+        padding: 10px 0px;
+    }
 
-#banner {
-    width: 1400px;
-    height: 500px;
-    margin-top: 50px;
-    margin-left: 275px;
-    border-radius: 90px;
-    border: 2px dashed #727375 ;
+    #logoarg {
+        margin: 0px;
+    }
 }
