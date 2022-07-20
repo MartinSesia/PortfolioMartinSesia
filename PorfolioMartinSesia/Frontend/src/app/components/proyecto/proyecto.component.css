@@ -1,0 +1,20 @@
+.row {
+    padding: 40px;
+    border: 3px solid lightgray;
+    margin: 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.contenedor {
+    width: auto;
+}
+
+.imagen, .texto {
+    display: inline-block;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+}

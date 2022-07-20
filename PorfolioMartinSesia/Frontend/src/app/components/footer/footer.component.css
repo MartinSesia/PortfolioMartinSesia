@@ -1,0 +1,14 @@
+.text {
+    color: darkgrey;
+    justify-content: right;
+    display: flex;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.row {
+    margin: 0;
+    margin-top: 55px;
+    font-size: 20px;
+    background-color: rgb(36, 35, 35);
+}

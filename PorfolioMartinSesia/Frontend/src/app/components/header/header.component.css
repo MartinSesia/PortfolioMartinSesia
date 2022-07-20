@@ -25,6 +25,14 @@ nav {
     margin: 10px;
 }
 
+.git {
+    margin-right: 30px;
+}
+
+button {
+    margin-right: 10px;
+}
+
 @media (max-width: 700px){
     header {
         flex-direction: column;
